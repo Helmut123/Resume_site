@@ -1,0 +1,224 @@
+:root {
+  --clr-red: #b6334d;
+  --clr-white: #B1B1B1;
+  --clr-grey: #444444;
+}
+
+html, body, .main {
+  height: 100%;
+  min-height: 100% !important;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  text-decoration: none;
+}
+
+body, .site {
+  background-color: #747474;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site {
+  width: 60%;
+  height: 65%;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-content {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu, .content, .photo, .social {
+  display: inline-block;
+
+  background-color: var(--clr-grey);
+}
+
+.content {
+  height: 85%;
+  width: 55%;
+
+  overflow: hidden;
+}
+
+.menu, .social {
+  height: 50%;
+  width: 5%;
+}
+
+.menu {
+  background-color: #595959;
+}
+
+.photo {
+  height: 100%;
+  width: 30%;
+
+  position: relative;
+
+  background-color: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+}
+
+.content-site {
+  height: 100%;
+}
+
+.placeholder {
+  height: 10%;
+}
+
+.content .heading {
+  height: 20%;
+
+  margin: 0% 10%;
+}
+
+.content h1 {
+  margin-bottom: 2%;
+
+  font-size: 35px;
+  color: var(--clr-white);
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.content h2 {
+  font-size: 15px;
+  color: var(--clr-red);
+  font-weight: normal;
+  font-family: 'Black Han Sans', sans-serif; /*'Permanent Marker', cursive;*/
+}
+
+.content h2 span {
+  color: var(--clr-white);
+}
+
+.content-schools {
+  height: 65%;
+  width: 90%;
+
+  margin: 0% 5%;
+
+  float: right;
+}
+
+.edu-school {
+  height: 50%;
+  width: 49%;
+
+  display: inline-block;
+}
+
+.edu-school img {
+  height: 25%;
+  margin-left: 10%;
+
+  float: left;
+  display: block;
+}
+
+.school-year {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-school h3, .edu-school h4, .edu-school h5 {
+  width: 100%;
+
+  margin-left: 10%;
+
+  float: left;
+  display: block;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.edu-school h5 {
+  margin-top: 5%;
+
+  color: var(--clr-red);
+  font-weight: normal;
+}
+
+.edu-school h3 {
+  color: #1a1a1a;
+  font-size: 15px;
+}
+
+.edu-school h4 {
+  color: var(--clr-white);
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.photo img {
+  width: 120%;
+
+  margin-top: 25%;
+}
+
+.name {
+  margin-top: 5%;
+}
+
+.name h2 {
+  font-size: 35px;
+  color: #333333;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.name h3 {
+  font-size: 25px;
+  color: var(--clr-red);
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+
+.social-icons, .menu-icons {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social a, .menu a {
+  width: 100%;
+
+  display: block;
+  margin: 25% 0%;
+
+  text-align: center;
+}
+
+.social img {
+  width: 35%;
+  transition: transform .2s;
+}
+
+.menu img {
+  width: 50%;
+  transition: transform .2s;
+}
+
+.social img:hover, .menu img:hover {
+  transform: scale(1.25);
+}
