@@ -120,6 +120,10 @@ body, .site {
   float: right;
 }
 
+.content-work {
+  text-align: center;
+}
+
 .edu-school, .work-exp {
   height: 50%;
   width: 49%;
@@ -130,13 +134,12 @@ body, .site {
 .edu-school img, .work-exp img {
   height: 25%;
   margin-left: 10%;
-
-  float: left;
-  display: block;
 }
 
 .work-exp img {
   height: 40%;
+  border-radius: 50%;
+  margin-left: 0%;
 }
 
 .school-year {
@@ -153,6 +156,10 @@ body, .site {
   float: left;
   display: block;
   font-family: 'Black Han Sans', sans-serif;
+}
+
+.work-exp h3, .work-exp h4, .work-exp h5 {
+  margin-left: 0%;
 }
 
 .edu-school h5, .work-exp h5 {
